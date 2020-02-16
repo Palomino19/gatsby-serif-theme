@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-serif-theme",
+  "name": "Valley",
   "version": "1.0.0",
-  "author": "Robert Austin <rob@jugglerdigital.com>",
+  "author": "Juan Palomino",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",

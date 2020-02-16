@@ -2,11 +2,12 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif',
-    description: 'my theme',
+    title: 'Valley Surgical Resources',
+    description: 'Valley Surgical Resources',
     contact: {
-      phone: 'XXX XXX XXX',
-      email: 'zerostaticthemes@gmail.com',
+      phone: '602-699-4304',
+      email: 'operations@valleysurgicalresources.com',
+      adress: '444 W Osborn Suite 200 Phoenix, AZ 85013',
     },
     menuLinks: [
       {
@@ -56,7 +57,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: guid ? guid : 'UA-XXX-1',
+        trackingId: guid || 'UA-XXX-1',
         // Puts tracking script in the head instead of the body
         head: false,
       },
